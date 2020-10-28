@@ -5,15 +5,13 @@ const app = express();
 const port = 8000;
 
 const uri = "mongodb+srv://graff811:1998Andreiko09@clusterlab2.jvjtz.mongodb.net/test?retryWrites=true&w=majority";
-const dbName = 'ClusterLab2'; // можете исправить на другое имя, если хотите
+const dbName = 'ClusterLab2';
 
-// Некоторые настройки безопасности
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
 
-// Для отправки post-запросов и чтения get-запросов
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
