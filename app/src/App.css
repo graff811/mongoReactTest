@@ -1,0 +1,70 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+  line-height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 320px;
+  max-width: 2000px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 1180px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.control_elements{
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 1em;
+}
+.elements{
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  justify-content: space-between;
+  
+  padding: 1em;
+  border-radius: 1em;
+  flex-direction: column;
+}
+.input{
+  background-color: rgb(0, 139, 7);
+  margin-right: 0.5em;
+}
+.update{
+  background-color: rgb(0, 137, 190);
+  margin-left: 0.5em;
+}
+.column_title{
+  font-size: 2rem;
+  font-family: -apple-system, 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+.elem{
+  display: block;
+  margin-bottom: 1em;
+}
+.button{
+  width:50%;
+  margin-bottom: 0;
+  background-color: white;
+}
+.delete{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(168, 0, 0);
+}
